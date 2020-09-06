@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using Autofac;
 using Newtonsoft.Json;
 
 namespace SongHelper
@@ -37,8 +38,14 @@ namespace SongHelper
         private void videoButton_Click(object sender, RoutedEventArgs e)
         {
             string text = artistText.Text + " " + songText.Text;
-            YotubeApiHandling ytHandler = new YotubeApiHandling();
-            ytHandler.Search(text);
+
+            var container = ContainerConfig.Configure();
+
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var app = scope.Resolve<IYotubeApiHandling>();
+                app.Search(text);
+            }
         }
 
         //playing song on spotify after button click
@@ -48,18 +55,23 @@ namespace SongHelper
             string song = songText.Text;            
             string link = string.Format("https://api.spotify.com/v1/search?q={0} {1}&type=track&market=US&limit=10&offset=0", song, artist);
 
-            var jsonData = SpotifyApiHandling.GetTrackInfo(link);
-            Rootobject lst = JsonConvert.DeserializeObject<Rootobject>(jsonData);
+            var container = ContainerConfig.Configure();
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var app = scope.Resolve<ISpotifyApiHandling>();
+                var jsonData = app.GetTrackInfo(link);
+                Rootobject lst = JsonConvert.DeserializeObject<Rootobject>(jsonData);
 
-            if (lst.tracks.total > 0)
-            {
-                link = lst.tracks.items[0].external_urls.spotify;
-                System.Diagnostics.Process.Start(link);
-            }
-            else
-            {
-                Popup popup = new Popup();
-                popup.Show();
+                if (lst.tracks.total > 0)
+                {
+                    link = lst.tracks.items[0].external_urls.spotify;
+                    System.Diagnostics.Process.Start(link);
+                }
+                else
+                {
+                    Popup popup = new Popup();
+                    popup.Show();
+                }
             }
         }        
     }

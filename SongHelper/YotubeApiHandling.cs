@@ -6,7 +6,7 @@ using Google.Apis.YouTube.v3;
 
 namespace SongHelper
 {
-    public class YotubeApiHandling
+    public class YotubeApiHandling : IYotubeApiHandling
     {
         [STAThread]
         public async void Search(string text)
@@ -19,7 +19,7 @@ namespace SongHelper
             {
                 foreach (var e in ex.InnerExceptions)
                 {
-                    Console.WriteLine("Error: " + e.Message);                    
+                    Console.WriteLine("Error: " + e.Message);
                 }
             }
         }
@@ -32,7 +32,7 @@ namespace SongHelper
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
                 //Put here your Youtube Api Key
-                ApiKey = "***your youtube API Key***",
+                ApiKey = "***your api key***",
                 ApplicationName = this.GetType().ToString()
             });
 

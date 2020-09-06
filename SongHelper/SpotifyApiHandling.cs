@@ -10,16 +10,23 @@ using System.Windows;
 
 namespace SongHelper
 {
-    public class SpotifyApiHandling
+    public class SpotifyApiHandling : ISpotifyApiHandling
     {
-        //getting acces token
-        public static string GetAccessToken()
+        ISpotifyToken _spotifyToken;
+
+        public SpotifyApiHandling(ISpotifyToken spotifyToken)
         {
-            SpotifyToken token = new SpotifyToken();
+            _spotifyToken = spotifyToken;
+        }
+
+        //getting acces token
+        public string GetAccessToken()
+        {
+            //SpotifyToken token = new SpotifyToken();
             string ur15 = "https://accounts.spotify.com/api/token";
 
             //Put here your spotify Client ID and Secret
-            string clientid = "***your clint id***";
+            string clientid = "***your client id***";
             string clientsecret = "***your client secret***";
 
             var encodeClientIDandSecret = Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Format("{0}:{1}", clientid, clientsecret)));
@@ -49,11 +56,12 @@ namespace SongHelper
                     rdr.Close();
                 }
             }
-            token = JsonConvert.DeserializeObject<SpotifyToken>(json);
-            return token.access_token;
+
+            _spotifyToken = JsonConvert.DeserializeObject<SpotifyToken>(json);
+            return _spotifyToken.access_token;
         }
 
-        public static string GetTrackInfo(string url)
+        public string GetTrackInfo(string url)
         {
             string WebResponse = string.Empty;
             var myToken = GetAccessToken();
@@ -68,7 +76,8 @@ namespace SongHelper
                 request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 request.Headers.Authorization = new AuthenticationHeaderValue("Authorization", "Bearer " + myToken);
 
-                var task = hc.SendAsync(request).ContinueWith((taskWithMsg) => {
+                var task = hc.SendAsync(request).ContinueWith((taskWithMsg) =>
+                {
                     var response = taskWithMsg.Result;
                     var jsonTask = response.Content.ReadAsStringAsync();
                     WebResponse = jsonTask.Result;

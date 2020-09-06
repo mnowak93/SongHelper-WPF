@@ -32,3 +32,12 @@ D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Google.Apis.Core.pdb
 D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Google.Apis.Core.xml
 D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Google.Apis.YouTube.v3.pdb
 D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Google.Apis.YouTube.v3.xml
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Autofac.dll
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Autofac.pdb
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Autofac.xml
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\c#\song helper\SongHelper\SongHelper\bin\Debug\System.Threading.Tasks.Extensions.xml

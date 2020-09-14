@@ -1,0 +1,9 @@
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\bin\Debug\netstandard2.0\YoutubeHandlingLibrary.deps.json
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\bin\Debug\netstandard2.0\YoutubeHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.AssemblyInfoInputs.cache
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.AssemblyInfo.cs
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.csprojAssemblyReference.cache
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\bin\Debug\netstandard2.0\YoutubeHandlingLibrary.pdb
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.csproj.CoreCompileInputs.cache
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\YoutubeHandlingLibrary\obj\Debug\netstandard2.0\YoutubeHandlingLibrary.pdb

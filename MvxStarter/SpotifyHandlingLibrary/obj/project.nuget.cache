@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qgzJuLOSjDv2fXNrmZNxHurKHda7rjBJxHjD2L/ILSUhvi6dh67iK9S+UF1fqnm1xIKp/G7cwTrRTLdmb+PHTg==",
+  "success": true,
+  "projectFilePath": "D:\\c#\\song helper 2.0\\MvxStarter\\SpotifyHandlingLibrary\\SpotifyHandlingLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

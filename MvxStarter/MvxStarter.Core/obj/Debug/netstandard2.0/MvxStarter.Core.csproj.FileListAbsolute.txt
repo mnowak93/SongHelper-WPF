@@ -1,0 +1,14 @@
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\MvxStarter.Core.deps.json
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\MvxStarter.Core.dll
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.csprojAssemblyReference.cache
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.AssemblyInfoInputs.cache
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.AssemblyInfo.cs
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\MvxStarter.Core.pdb
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.dll
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.pdb
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\SpotifyHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\YoutubeHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\SpotifyHandlingLibrary.pdb
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\bin\Debug\netstandard2.0\YoutubeHandlingLibrary.pdb
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.csproj.CopyComplete
+D:\c#\song helper 2.0\MvxStarter\MvxStarter.Core\obj\Debug\netstandard2.0\MvxStarter.Core.csproj.CoreCompileInputs.cache

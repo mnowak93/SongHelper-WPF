@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxStarter.Core", "MvxStarter.Core\MvxStarter.Core.csproj", "{B3852DD5-1F37-4352-940B-72ED1F09E01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxStarter.Wpf", "MvxStarter.Wpf\MvxStarter.Wpf.csproj", "{913C79BD-3451-4587-8D35-A363E610DF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyHandlingLibrary", "SpotifyHandlingLibrary\SpotifyHandlingLibrary.csproj", "{FEF9A1B4-1156-4555-95FA-819987A69E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeHandlingLibrary", "YoutubeHandlingLibrary\YoutubeHandlingLibrary.csproj", "{40F8881C-A20A-4769-9B58-6222D43F42DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3852DD5-1F37-4352-940B-72ED1F09E01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3852DD5-1F37-4352-940B-72ED1F09E01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3852DD5-1F37-4352-940B-72ED1F09E01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3852DD5-1F37-4352-940B-72ED1F09E01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913C79BD-3451-4587-8D35-A363E610DF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913C79BD-3451-4587-8D35-A363E610DF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913C79BD-3451-4587-8D35-A363E610DF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913C79BD-3451-4587-8D35-A363E610DF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF9A1B4-1156-4555-95FA-819987A69E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF9A1B4-1156-4555-95FA-819987A69E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF9A1B4-1156-4555-95FA-819987A69E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF9A1B4-1156-4555-95FA-819987A69E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F8881C-A20A-4769-9B58-6222D43F42DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F8881C-A20A-4769-9B58-6222D43F42DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F8881C-A20A-4769-9B58-6222D43F42DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F8881C-A20A-4769-9B58-6222D43F42DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59B38D48-38DA-496F-857C-7F5731FC9B95}
+	EndGlobalSection
+EndGlobal

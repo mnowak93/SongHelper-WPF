@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "aVO0b4067p5gxT5powAOlmslW1SGz86KUvRf3o3GsfwCOVNNoWcVJflR+j2XlyFKhoxNFO3GkPjE3KM9k3rzww==",
+  "success": true,
+  "projectFilePath": "D:\\c#\\song helper 2.0\\MvxStarter\\MvxStarter.Core\\MvxStarter.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateusz\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\autofac.extras.mvvmcross\\5.1.0\\autofac.extras.mvvmcross.5.1.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\google.apis\\1.49.0\\google.apis.1.49.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\google.apis.auth\\1.47.0\\google.apis.auth.1.47.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\google.apis.core\\1.49.0\\google.apis.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\google.apis.youtube.v3\\1.47.0.2008\\google.apis.youtube.v3.1.47.0.2008.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\mvvmcross\\7.0.0\\mvvmcross.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

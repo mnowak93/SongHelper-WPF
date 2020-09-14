@@ -1,0 +1,9 @@
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\bin\Debug\netstandard2.0\SpotifyHandlingLibrary.deps.json
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\bin\Debug\netstandard2.0\SpotifyHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.csprojAssemblyReference.cache
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.AssemblyInfoInputs.cache
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.AssemblyInfo.cs
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\bin\Debug\netstandard2.0\SpotifyHandlingLibrary.pdb
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.csproj.CoreCompileInputs.cache
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.dll
+D:\c#\song helper 2.0\MvxStarter\SpotifyHandlingLibrary\obj\Debug\netstandard2.0\SpotifyHandlingLibrary.pdb
